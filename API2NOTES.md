@@ -1,0 +1,30 @@
+# API2-NOTES: Server-Side Routing with Express
+
+Guided project for **Node API 2** module.
+
+In this project we will learn how to create a very simple Web API using `Node.js` and `Express`, and cover how to use `Express Routers` to break up the application to make it more maintainable.
+
+## Prerequisites
+
+- a REST client like [Insomnia](https://insomnia.rest/download/) or [Postman](https://www.getpostman.com/downloads/) installed.
+
+## Project Setup
+
+- [ ] Clone this repository
+- [ ] **CD into the folder** where you cloned the repo
+- [ ] Type `npm install` to download dependencies
+
+Please follow along as the instructor builds the API step by step:
+
+| Not using REST   | Using REST              |
+| ---------------- | ----------------------- |
+| `/listUsers`     | GET    /users           |
+| `/createUser`    | POST   /users           |
+| `/updateUser`    | PUT    /users/:id       |
+| `/deleteUser`    | DELETE /users/:id       |
+| `/listUserPosts` | GET    /users/:id/posts |
+
+
+## Lecture Notes and Points ooof Interest
+
++ 
